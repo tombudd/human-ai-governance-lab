@@ -1,0 +1,9 @@
+{
+  "task_id": "TASK-001",
+  "task": "Draft a public README section from synthetic notes",
+  "uses_private_data": false,
+  "external_action": false,
+  "could_affect_real_people": false,
+  "requires_human_approval": false
+}
+

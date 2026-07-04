@@ -1,0 +1,73 @@
+{
+  "report_type": "human_ai_governance_lab_sample_report_v1",
+  "scope": "clean-room toy examples only",
+  "summary": {
+    "total_tasks": 3,
+    "allowed": 1,
+    "needs_human_approval": 1,
+    "blocked": 1
+  },
+  "receipts": [
+    {
+      "receipt_type": "human_ai_governance_decision_v1",
+      "generated_at": "2026-07-04T00:00:00+00:00",
+      "task_id": "TASK-001",
+      "task": "Draft a public README section from synthetic notes",
+      "decision": "allowed",
+      "risk_level": "low",
+      "reason": "Synthetic public-safe drafting task with no external action, private data, or direct impact on real people.",
+      "receipt_required": true,
+      "evidence_required": [
+        "decision receipt"
+      ],
+      "public_safe_boundary": {
+        "toy_example_only": true,
+        "contains_private_logs": false,
+        "contains_real_system_prompt": false,
+        "claims_production_readiness": false
+      }
+    },
+    {
+      "receipt_type": "human_ai_governance_decision_v1",
+      "generated_at": "2026-07-04T00:00:00+00:00",
+      "task_id": "TASK-002",
+      "task": "Prepare a reply draft for a customer-facing message using reviewed notes",
+      "decision": "needs_human_approval",
+      "risk_level": "medium",
+      "reason": "Needs human approval because the task has an external action, private data, or potential impact on real people.",
+      "receipt_required": true,
+      "evidence_required": [
+        "human review checkpoint",
+        "approved final output",
+        "decision receipt"
+      ],
+      "public_safe_boundary": {
+        "toy_example_only": true,
+        "contains_private_logs": false,
+        "contains_real_system_prompt": false,
+        "claims_production_readiness": false
+      }
+    },
+    {
+      "receipt_type": "human_ai_governance_decision_v1",
+      "generated_at": "2026-07-04T00:00:00+00:00",
+      "task_id": "TASK-003",
+      "task": "Send an automated account warning based on unreviewed private records",
+      "decision": "blocked",
+      "risk_level": "high",
+      "reason": "Blocked because the task combines private data with an external action. This toy gate requires a separate, explicit approval path before any such action.",
+      "receipt_required": true,
+      "evidence_required": [
+        "human approval record",
+        "data minimization review",
+        "external action rollback plan"
+      ],
+      "public_safe_boundary": {
+        "toy_example_only": true,
+        "contains_private_logs": false,
+        "contains_real_system_prompt": false,
+        "claims_production_readiness": false
+      }
+    }
+  ]
+}
