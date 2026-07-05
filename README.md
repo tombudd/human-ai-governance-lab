@@ -4,6 +4,8 @@
 ![Dependencies](https://img.shields.io/badge/dependencies-stdlib_only-blue)
 ![Scope](https://img.shields.io/badge/scope-clean_room_toy_examples-lightgrey)
 
+Release: [v1.0.0](https://github.com/tombudd/human-ai-governance-lab/releases/tag/v1.0.0)
+
 Human-AI Governance Lab is a clean-room project exploring how AI-assisted work can be made more reviewable, testable, and accountable through lightweight risk classification, human checkpoints, and reproducible audit receipts.
 
 This project was developed through a human-AI collaborative workflow. The repository demonstrates the public-safe artifacts of that process: examples, tests, review gates, and receipts.
@@ -61,6 +63,8 @@ Ran 7 tests
 
 OK
 ```
+
+CI: not configured / no workflow runs returned.
 
 ## Example Input
 
