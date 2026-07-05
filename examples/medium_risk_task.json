@@ -1,9 +1,8 @@
 {
   "task_id": "TASK-002",
-  "task": "Prepare a reply draft for a customer-facing message using reviewed notes",
+  "task": "Prepare a reply draft for a public stakeholder message using reviewed notes",
   "uses_private_data": false,
   "external_action": true,
   "could_affect_real_people": true,
   "requires_human_approval": true
 }
-

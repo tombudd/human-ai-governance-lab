@@ -31,7 +31,7 @@
       "receipt_type": "human_ai_governance_decision_v1",
       "generated_at": "2026-07-04T00:00:00+00:00",
       "task_id": "TASK-002",
-      "task": "Prepare a reply draft for a customer-facing message using reviewed notes",
+      "task": "Prepare a reply draft for a public stakeholder message using reviewed notes",
       "decision": "needs_human_approval",
       "risk_level": "medium",
       "reason": "Needs human approval because the task has an external action, private data, or potential impact on real people.",
