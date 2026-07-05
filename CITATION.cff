@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this lab repository, please cite it using the metadata below."
+title: "Human-AI Governance Lab"
+type: software
+authors:
+  - family-names: Budd
+    given-names: Tom
+repository-code: "https://github.com/tombudd/human-ai-governance-lab"
+url: "https://github.com/tombudd/human-ai-governance-lab"
+version: "1.0.0"
+date-released: "2026-07-05"
+abstract: "A clean-room public lab for lightweight risk classification, human approval gates, reproducible audit receipts, tests, and documented limitations for AI-assisted workflows."
+keywords:
+  - ai-governance
+  - human-ai-collaboration
+  - approval-gates
+  - auditability
+  - risk-classification
+license: MIT
